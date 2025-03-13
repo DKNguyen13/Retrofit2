@@ -8,6 +8,6 @@ import vn.hcmute.retrofit2.model.Category;
 
 public interface APIService {
     //@GET("api/category")
-    @GET("/categories.php")
+    @GET("categories.php")
     Call<List<Category>> getCategoryAll();
 }
